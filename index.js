@@ -8,6 +8,10 @@ const res = require("express/lib/response")
 
 const app = express()
 
+
+// Definindo a pasta de arquivos estátitcos
+app.use(express.static(__dirname + "/public"))
+
 // Cirar uma rota "/" que vai enviar um arquivo views/index.html
 
 app.get("/", (req,res)=>{
