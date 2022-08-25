@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #fff;
+  box-shadow: 0px 2px 10px 0px #00000040;
+}
+
+.title {
+  display: inline;
+  font-family: 'Ropa Sans';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #777777;
+}
+
+#title-description {
+  font-family: 'Ropa Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  color: #AAAAAA;
+}
+
+.banner {
+  background: url("../images/Rectangle1.svg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hamburguer-menu {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.navbar {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: none;
+}
+
+@media(min-width: 481px) {
+  .hamburguer-menu {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+}
