@@ -251,7 +251,7 @@ footer img{
   margin-top: 10px;
 }
 
-@media(min-width: 769px) {
+@media(min-width: 481px) {
   .hamburguer-menu {
     display: none;
   }
@@ -265,6 +265,136 @@ footer img{
     font-size: 14px;
   }
 
+  .banner{
+    padding: 20px 45px;
+  }
+
+  .anuncios{
+    flex-direction: row;
+  }
+
+ 
+}
+
+
+@media(min-width: 769px) {
+  .hamburguer-menu {
+    display: none;
+  }
+
+  .title{
+    font-size: 45px;
+  }
+
+  #title-description{
+    font-size: 15px;
+  }
+  
+  .navbar{
+    display: flex;
+  }
+  .navbar a{
+    color: #777777;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  footer{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  @media(min-width: 1023px) {
+    header{
+      height: 85px;
+    }
+
+    .title{
+      font-size: 45px;
+    }
+
+    #title-description{
+      font-size: 15px;
+    }
+    
+
+    .hamburguer-menu {
+      display: none;
+    }
+    
+    .navbar{
+      display: flex;
+    
+    }
+    .navbar a{
+      color: #777777;
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    .banner{
+      padding: 20px 45px;
+    }
+  
+    .anuncios{
+      flex-direction: row;
+      justify-content: space-evenly
+      
+    }
+
+    .card-anuncio{
+      width: 450px;
+    }
+
+    .card-anuncio img{
+      height: 400px;
+      height: 100%;
+    }
+    
+
+    .infos-anuncio{
+      height: 200px;
+    }
+
+    .infos-anuncio h3{
+      font-size: 40px;
+    }
+
+    .infos-anuncio p{
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    #sale{
+      height: 50px;
+      width: 100px;
+      border-radius: 65px;
+      font-size: 30px;
+    }
+
+    #new{
+      height: 50px;
+      width: 100px;
+      border-radius: 65px;
+      font-size: 30px;
+    }
+     
+    .styles h2{
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .style{
+      height: 120px;
+      font-size: 30px;
+    }
+
+    footer{
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+   
+  }
  
 }
 
