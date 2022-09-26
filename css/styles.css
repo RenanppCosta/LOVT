@@ -60,7 +60,7 @@ header {
 }
 
 
-.anuncios{
+#anuncios{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -146,7 +146,7 @@ header {
   background-color: rgb(192, 21, 49);
 }
 
-.styles h2{
+#styles h2{
   font-family: 'Ropa Sans';
   font-style: normal;
   color: #888;
@@ -155,7 +155,7 @@ header {
   line-height: 33px;
 }
 
-.styles{
+#styles{
  margin-top: 30px;
  display: flex;
  flex-direction: column;
@@ -288,6 +288,11 @@ footer img{
   
 }
 
+#sidebar-menu li a{
+  color: #888;
+  text-decoration: none;
+}
+
 #sidebar-menu li:hover{
   cursor: pointer;
   text-shadow: 1px 0.5px 5px rgb(107, 109, 79);
@@ -296,6 +301,10 @@ footer img{
 
 .sidebar-visible{
   display: block !important;
+}
+
+.contact-us{
+  color: white;
 }
 
 @media(min-width: 481px) {
@@ -320,7 +329,7 @@ footer img{
     padding: 20px 45px;
   }
 
-  .anuncios{
+  #anuncios{
     flex-direction: row;
   }
 
@@ -387,7 +396,7 @@ footer img{
       padding: 20px 45px;
     }
   
-    .anuncios{
+    #anuncios{
       flex-direction: row;
       justify-content: space-evenly
       
@@ -430,7 +439,7 @@ footer img{
       font-size: 30px;
     }
      
-    .styles h2{
+    #styles h2{
       font-size: 40px;
       margin-bottom: 20px;
     }

@@ -9,7 +9,11 @@ let imagesBanner = ["./images/Rectangle1.svg",
 
 setInterval(()=>{
     let banner = document.querySelector(".banner img");
-    banner.innerHTML = imagesBanner[contador];
+    banner.src = imagesBanner[contador];
+    contador++;
+    if(contador > 5){
+        contador = 0
+    }
 
 
 },5000)
