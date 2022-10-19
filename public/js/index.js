@@ -2,16 +2,13 @@ let contador = 1;
 let imagesBanner = ["./images/Rectangle1.svg",
 "./images/Rectangle2.svg",
 "./images/Rectangle3.svg",
-"./images/Rectangle4.svg",
-"./images/Rectangle5.svg",
-"./images/Rectangle6.svg"
 ]
 
 setInterval(()=>{
     let banner = document.querySelector(".banner img");
     banner.src = imagesBanner[contador];
     contador++;
-    if(contador > 5){
+    if(contador > 2){
         contador = 0
     }
 
