@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "urlImage":"./images/Rectangle2.svg",
+        "price": "R$25.000",
+        "status": "New",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, porro ea. Quas praesentium maiores voluptate maxime, corrupti voluptatem quis totam eligendi expedita a excepturi similique!"
+    },
+
+    {
+        "id": 2,
+        "urlImage":"./images/Rectangle3.svg",
+        "price": "R$32.000",
+        "status": "Sale",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, porro ea. Quas praesentium maiores voluptate maxime, corrupti voluptatem quis totam eligendi expedita a excepturi similique!",
+        "teste": "vasco da gama"
+    },
+
+    {
+        "id": 3,
+        "urlImage":"./images/Rectangle3.svg",
+        "price": "R$32.000",
+        "status": "Sale",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, porro ea. Quas praesentium maiores voluptate maxime, corrupti voluptatem quis totam eligendi expedita a excepturi similique!",
+        "teste": "vasco da gama"
+    }
+    
+
+]

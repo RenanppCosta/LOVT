@@ -111,7 +111,7 @@ header {
   animation: updown 3s;
 }
 
-#sale{
+#Sale{
   height: 21px;
   width: 56px;
   border-radius: 10.5px;
@@ -124,7 +124,7 @@ header {
   transition: 0.5s;
 }
 
-#new{
+#New{
   height: 21px;
   width: 56px;
   border-radius: 10.5px;
@@ -138,11 +138,11 @@ header {
   
 }
 
-#new:hover{
+#New:hover{
   background-color: rgb(192, 21, 49);
 }
 
-#sale:hover{
+#Sale:hover{
   background-color: rgb(192, 21, 49);
 }
 
@@ -425,14 +425,14 @@ footer img{
       line-height: 30px;
     }
 
-    #sale{
+    #Sale{
       height: 50px;
       width: 100px;
       border-radius: 65px;
       font-size: 30px;
     }
 
-    #new{
+    #New{
       height: 50px;
       width: 100px;
       border-radius: 65px;
